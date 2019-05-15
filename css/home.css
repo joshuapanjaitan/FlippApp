@@ -1,0 +1,132 @@
+/*Jumbotron Search*/
+
+.jum_srch h1{
+	font-weight:  bold;
+}
+.input-search-homepage{
+	border-radius: 15px 0px 0px 15px;
+	padding: 15px 15px;
+	width: 40%;
+	border: solid 2px white;
+}
+.input-search-homepage:focus{
+	border: solid 2px white;
+	outline: 0;
+}
+.button-search-homepage{
+	border-radius: 0px 15px 15px 0px;
+	padding: 15px 20px;
+	background-color: white;
+	border: solid 2px white;
+	margin-left: -5px;
+
+}
+.button-search-homepage svg{
+	color: #03C5FA; 
+}
+.button-search-homepage:hover{
+	background-color: #D5DDE0;
+	border: solid 2px #D5DDE0;
+}
+/*Tutup Jumbotron Search*/
+
+/*Jumbotron Upload Terbaru*/
+.jum_good{
+	margin-top: -32px;
+	text-align: center;
+}
+.good{
+	justify-content: center;
+	margin:0;
+	padding: 0;
+	display: flex;
+}
+.link-good img{
+	height: 100px;
+	width: 100px;
+	margin : 10px 10px;
+}
+.btn1{
+	margin-top: 25px;
+	padding: 10px 10px
+}
+/*tutup Jumbotron Upload terbaru*/
+/*Jumbotron Skrip katergori terbaru*/
+.jmb_script{
+	margin-top: -50px;
+}
+.jmb_script h1,p{
+	text-align: center;
+}
+.jmb_script button{
+	padding: 10px 10px;
+}
+.jmb_script button:nth-child(1){
+	margin-left: 70px;
+	padding-right: 100px;
+}
+.kategory-srip1{
+	display: none;
+}
+.kategory-srip2{
+	display: inline-block;
+}
+.btn2 a{
+	margin: 5px 5px;
+}
+.info-perusahaan img{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info-perusahaan div{
+	margin: 20px 20px;
+}
+.info-perusahaan div p:nth-child(1){
+	font-weight: bold;
+}
+
+/*Tutup Jumbotron Skrip katergori terbaru*/
+@media screen and (max-width: 768px){
+	/*jumbotron Search*/
+	.input-search-homepage{
+		padding:5px 5px; 
+		border-radius: 5px 0px 0px 5px;
+		width: 60%;
+		
+	}
+	.button-search-homepage{
+		padding:5px 10px; 
+		border-radius: 0px 5px 5px 0px;
+	}
+	.jum_srch {
+		height: 265px;
+	}
+	.jum_srch h1{
+		font-size: 28px;
+	}
+	.jum_srch,.jum_good p{
+		font-size: 16px;
+	}
+	/*tutup Jumbotron search*/
+	/*jumbotron Upload Terbaru*/
+	.jum_good h1{
+		font-size: 26px;
+	}
+	.good li:nth-child(4), li:nth-child(5){
+		display: none;
+	}
+	.link-good img{
+	height: 80px;
+	width: 80px;
+	}
+	/*tutup Jumbotron Upload terbaru*/
+	/*Jumbotron Skrip katergori terbaru*/
+	.kategory-srip1{
+		display: inline-block;
+	}
+	.kategory-srip2{
+		display: none;
+	}
+	/*Tutup Jumbotron Skrip katergori terbaru*/
+}
