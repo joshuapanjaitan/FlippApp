@@ -17,6 +17,7 @@
 </head>
 <body >
 	<!-- Jumbotron search -->
+	<h1>halo</h1>
 	<div class="jumbotron jum_srch">
 		<div class="container isi-jumbotron">
     		<h1 class="display-4">Discover 28,925 code scripts and plugins from $2</h1>
